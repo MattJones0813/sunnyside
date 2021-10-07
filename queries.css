@@ -1,0 +1,259 @@
+/* ********* */
+/* MEDIA QUERIES
+- Mobile: 375px
+- Desktop: 1440px */
+/* ********* */
+
+/* 1296px  */
+@media (max-width: 81em) {
+  .about-img {
+    height: fit-content;
+    display: block;
+  }
+
+  .about-section {
+    padding: 6.4rem 6.4rem;
+  }
+
+  .img-cherry {
+    height: fit-content;
+    display: block;
+  }
+
+  .img-orange {
+    height: fit-content;
+    display: block;
+  }
+
+  .img-container {
+    height: fit-content;
+  }
+
+  .testimonials-section {
+    padding-top: 8rem;
+  }
+
+  .testimonial-info {
+    font-size: 1.6rem;
+    width: auto;
+    margin-bottom: 4.8rem;
+  }
+
+  .testimonials-flex {
+    gap: 3.6rem;
+  }
+
+  /* 1072px */
+  @media (max-width: 67em) {
+    .testimonials-section {
+      padding-top: 6.4rem;
+    }
+
+    .about-section {
+      height: fit-content;
+      margin: 6.4rem 6.4rem;
+      padding: 0 0;
+      font-size: 1.4rem;
+    }
+
+    .about-heading {
+      font-size: 3.6rem;
+    }
+
+    .about-info {
+      margin-bottom: 3.2rem;
+    }
+
+    .footer-links {
+      padding-bottom: 6.4rem;
+    }
+  }
+
+  /* 896px */
+  @media (max-width: 56em) {
+    .header-title {
+      font-size: 2.4rem;
+    }
+
+    .about-container {
+      margin-bottom: 4.8rem;
+    }
+
+    .about-section {
+      height: fit-content;
+      margin: 3.2rem 3.2rem;
+      justify-self: center;
+      align-self: center;
+    }
+
+    .about-img {
+      width: 100%;
+      height: auto;
+    }
+
+    .section-3-header {
+      margin-bottom: 0.8rem;
+    }
+
+    .testimonials-section {
+      padding-top: 0;
+    }
+
+    .testimonials-flex {
+      gap: 1.6rem;
+      margin-bottom: 0;
+    }
+
+    .testimonials-heading {
+      margin-bottom: 6.4rem;
+    }
+
+    .testimonial-info {
+      display: block;
+    }
+
+    .section-3-header {
+      width: 25.6rem;
+      font-size: 2.4rem;
+    }
+
+    .section-3-info {
+      font-size: 1.4rem;
+      width: fit-content;
+    }
+  }
+
+  /* 800px grid change & design break*/
+  @media (max-width: 50em) {
+    .header {
+      height: 100vh;
+    }
+
+    .about-container {
+      display: grid;
+      height: 100%;
+      grid-template-columns: 1fr;
+      overflow: hidden;
+    }
+
+    .grid-helper-2 {
+      grid-row-start: 1;
+    }
+
+    .grid--move {
+      grid-row: 3;
+    }
+
+    .nav-bar a {
+      display: none;
+    }
+
+    .nav-button {
+      background-image: url(/images/icon-hamburger.svg);
+      font-family: "Fraunces";
+      margin-right: 4.8rem;
+      border: none;
+      padding: 1.6rem 2.6rem;
+      border-radius: 0px;
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      color: #23303e;
+      background-color: #3dbeff;
+
+      font-size: 0;
+      transition: linear all 0.2s;
+    }
+
+    .nav-button:hover {
+      background-color: #3dbeff;
+      color: #ffffff;
+    }
+
+    .helper-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .helper-center-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .section-3-header {
+      font-size: 3.6rem;
+      width: auto;
+    }
+
+    .section-3-info {
+      font-size: 1.6rem;
+    }
+
+    .about-img {
+      height: auto;
+      width: 100%;
+    }
+
+    .grid-helper-2 {
+      height: fit-content;
+    }
+
+    .grid--move {
+      height: fit-content;
+    }
+  }
+
+  /* 576px  */
+  @media (max-width: 36em) {
+    .section-3-header {
+      font-size: 3rem;
+      width: auto;
+    }
+
+    .section-3-info {
+      width: 30rem;
+      font-size: 1.4rem;
+    }
+
+    .testimonials-flex {
+      display: grid;
+      gap: 0rem;
+      width: 100%;
+    }
+
+    .testimonial-info {
+      width: 40rem;
+      font-size: 1.6rem;
+      margin-bottom: 2.4rem;
+    }
+
+    .testimonials-img {
+      height: 25%;
+      margin-bottom: 3.2rem;
+    }
+
+    .about-container {
+      margin-bottom: 6.4rem;
+    }
+  }
+
+  /* 416px - mobile*/
+  @media (max-width: 26em) {
+    .header-title {
+      font-size: 2rem;
+    }
+
+    .grid--help {
+      padding: 1.6rem 0 1.6rem 0;
+    }
+
+    .gallery-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

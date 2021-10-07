@@ -1,0 +1,378 @@
+/* ************** */
+/* HEADER */
+/* ************** */
+
+.header {
+  background-image: url(/images/desktop/image-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+
+.header-container {
+  margin-bottom: 4.8rem;
+}
+
+.sunnyside-logo {
+  height: 3.2rem;
+  margin-left: 4.8rem;
+  margin-right: auto;
+}
+
+.nav-bar {
+  display: flex;
+  padding-top: 3.6rem;
+  justify-content: flex-end;
+  gap: 4.8rem;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-bar a {
+  font-family: "Barlow";
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  transition: linear all 0.4s;
+}
+
+.learn-more:link,
+.learn-more:visited {
+  color: #23303e;
+}
+
+.learn-more:hover,
+.learn-more:active {
+  color: #fad400;
+}
+
+.learn-more-2:hover,
+.learn-more-2:active {
+  color: #fe7867;
+}
+
+a:link,
+a:visited {
+  color: #ffffff;
+}
+
+a:hover,
+a:active {
+  color: #23303e;
+}
+
+.nav-button {
+  font-family: "Fraunces";
+  margin-right: 4.8rem;
+  border: none;
+  padding: 1.6rem 2.6rem;
+  border-radius: 1000px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #23303e;
+  background-color: #ffffff;
+  font-size: 1.6rem;
+  transition: linear all 0.2s;
+}
+
+.nav-button:hover {
+  background-color: #59deff;
+  /* transform: scale(1.03); */
+  color: #ffffff;
+}
+
+.header-title {
+  color: #ffffff;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1rem;
+  justify-content: center;
+  text-align: center;
+  margin-top: 12.8rem;
+}
+
+.header-arrow {
+  display: flex;
+  justify-content: center;
+  margin-top: 9.6rem;
+}
+
+/* ************** */
+/* ABOUT SECTION */
+/* ************** */
+
+.about-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  overflow: hidden;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7f7f7;
+  color: #23303e;
+  padding: 12.8rem 12.8rem;
+}
+
+.about-heading {
+  font-weight: 900;
+  font-size: 4.4rem;
+  margin-bottom: 3.2rem;
+  line-height: 1.2;
+}
+
+.about-info {
+  color: #818498;
+  font-family: "barlow", sans-serif;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+  letter-spacing: -0.03rem;
+}
+
+.learn-more {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.6rem;
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+}
+
+.learn-more:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.learn-more::after {
+  content: "";
+  position: absolute;
+  left: -1%;
+  bottom: -22%;
+  padding: 0.4rem 6.4rem;
+  border-radius: 15px;
+  background-color: rgba(255, 217, 0, 0.2);
+  z-index: 1;
+}
+
+.learn-more-2::after {
+  content: "";
+  position: absolute;
+  left: -1%;
+  bottom: -22%;
+  padding: 0.4rem 6.4rem;
+  border-radius: 15px;
+  background-color: rgba(255, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.about-img {
+  height: 100%;
+  width: 100%;
+}
+
+/* helper class for z pattern */
+.grid--move {
+  grid-row: 3 / -3;
+}
+
+.img-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.helper-center {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.helper-center-2 {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-cherry {
+  height: 100%;
+  width: 100%;
+}
+
+.img-orange {
+  height: 100%;
+  width: 100%;
+}
+
+.section-3-header {
+  margin-bottom: 3.2rem;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #25564b;
+}
+.section-3-info {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.7;
+  font-size: 1.8rem;
+  width: 40rem;
+  color: #3b675d;
+  letter-spacing: -0.03rem;
+}
+
+.photography {
+  color: #19536b;
+}
+
+.photography-info {
+  color: #206a8a;
+}
+
+/* ************
+TESTIMONIALS SECTION 
+***************/
+
+.testimonials-section {
+  width: 100%;
+  background-color: #f7f7f7;
+  padding-top: 12.8rem;
+}
+
+.testimonials-container {
+  width: 100%;
+}
+
+.testimonials-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  color: #a7abae;
+  font-size: 2rem;
+  margin-bottom: 9.6rem;
+}
+
+.testimonials-flex {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #f7f7f7;
+  margin-bottom: 6.4rem;
+}
+
+.testimonials-card {
+  justify-self: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.testimonials-img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  height: 18%;
+  width: auto;
+  margin-bottom: 6.4rem;
+}
+
+.testimonial-info {
+  text-align: center;
+  letter-spacing: -0.05rem;
+  color: #5a636c;
+  margin-bottom: 6.4rem;
+  font-size: 1.8rem;
+}
+.testimonial-author {
+  display: block;
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+.testimonial-job-title {
+  text-align: center;
+  font-family: "barlow", sans-serif;
+  color: #a7abae;
+  font-size: 1.4rem;
+}
+
+/* ******* */
+/* GALLERY SECTION */
+/* ******* */
+
+.gallery-section {
+  display: flex;
+  overflow: hidden;
+}
+
+.gallery-img {
+  /* removes whitespace under image */
+  display: block;
+  max-width: 100%;
+}
+/* ********* */
+/* FOOTER */
+/* ********* */
+
+footer {
+  background-color: #8dd5c7;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+  padding-bottom: 4.8rem;
+}
+
+.footer-logo {
+  display: inline-block;
+  height: 3.2rem;
+  width: auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 4.8rem;
+  padding-bottom: 8rem;
+}
+
+.footer-links a {
+  font-family: "barlow", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: #418375;
+  transition: all 0.3s;
+}
+
+.footer-links a:hover {
+  color: #163b33;
+}
+
+.footer-logos-container {
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+  padding-bottom: 8rem;
+}
+
+.footer-logos {
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.footer-logos:hover {
+  transform: scale(1.3, 1.3);
+}

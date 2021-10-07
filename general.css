@@ -1,0 +1,83 @@
+/* 
+
+// ---01 TYPOGRAPHY SYSTEM //
+
+-- font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-- main font: 
+18px 
+
+-- Font weights:
+Barlow - 600 
+Fraunces - 700, 900
+
+-- Line heights: 
+
+
+-- Letter spacing:
+
+
+// ---02 COLORS //
+
+[Primary]
+- Soft red: #fe7867
+- Yellow: #fad400
+- Dark desaturated cyan (graphic design text): #25564b
+- Dark blue (photography text): #19536b
+- Dark moderate cyan (footer): #458c7e
+-footer text color #2C7566
+
+[Neutral]
+- Very dark desaturated blue: #23303e
+- Very dark grayish blue: #5a636c
+- Dark grayish blue: #818498
+- Grayish blue: #a7abae 
+- White: 	#ffffff
+
+// --- 07 WHITESPACE //
+
+-- Spacing System (px) 
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+/* ********* */
+/* MAIN SET UP */
+/* ********* */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+html {
+  /* REM TRICK */
+  /* 10px / 16px = 0.625 = 62.5%  */
+  /* font-size: 10px; */
+  /* Percentage of user's browser font-size setting  */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Fraunces", sans-serif;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.8rem;
+  background-color: #f7f7f7;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  background-color: #f7f7f7;
+}
