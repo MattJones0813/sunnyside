@@ -46,7 +46,8 @@ This project allowed me to re-inforce my CSS and Flexbox skills.
 I really enjoyed making the website responsive and adding media queries to make sure it was responsive for multiple devices. 
 I used ``` height: fit-content; ``` for the first time in this project which was another new property I learned. 
 I also had to overcome a few challenges on the way so I had to research solutions and read documentation to impliment these changes. 
-[https://developer.mozilla.org/en-US/docs/Web/CSS] (MDN Web Docs) was a great tool for this alongside StackOverflow for specific questions. 
+[https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+was a great tool for this alongside StackOverflow for specific questions. 
 
 
 ### Code Snippets
