@@ -60,13 +60,13 @@ I used ``` height: fit-content; ``` for the first time in this project which was
   z-index: 1;
 }
 ```
-This code snippet allowed me to add the styling to the 'learn more' elements on the page, which was a subtle design choice but overall really gave the website a nice feel. I also added a 
+This code snippet allowed me to add the styling to the 'learn more' elements on the page, which was a subtle design choice but overall really gave the website a nice feel. I also added a hover element so that it matched the colour when it was active.
 ```css
 .learn-more:link,
 .learn-more:visited {
   color: #23303e;
 }
-``` so that it matched the colour when it was hovered. 
+``` 
 
 
 ```css
