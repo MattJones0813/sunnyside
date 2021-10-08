@@ -10,6 +10,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Code Snippets](#code-snippets)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 
@@ -22,12 +23,13 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ### Screenshots
 
-![https://imgur.com/a/kpKtOOK] (https://imgur.com/a/kpKtOOK) - Desktop 
-![https://imgur.com/a/HUW4xz6] (https://imgur.com/a/HUW4xz6) - Mobile 
+[https://imgur.com/a/kpKtOOK](https://imgur.com/a/kpKtOOK) - Desktop 
+
+[https://imgur.com/a/HUW4xz6](https://imgur.com/a/HUW4xz6) - Mobile 
 
 ### Live site URL 
 
-- [https://sunnyside-responsive.netlify.app/] (https://sunnyside-responsive.netlify.app/)
+[https://sunnyside-responsive.netlify.app/](https://sunnyside-responsive.netlify.app/)
 
 ## My process
 
@@ -43,6 +45,8 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 This project allowed me to re-inforce my CSS and Flexbox skills. 
 I really enjoyed making the website responsive and adding media queries to make sure it was responsive for multiple devices. 
 I used ``` height: fit-content; ``` for the first time in this project which was another new property I learned. 
+
+### Code Snippets
 
 ```css
 .learn-more::after {
@@ -110,9 +114,9 @@ which affected the rest of the design whereby the grid would no longer be respon
 
 ### Useful resources
 
-- [Colour picker!](https://imagecolorpicker.com/) - This helped me when I needed to match colours specifically to the design specifications. Absolute no-brainer! 
-- [Type Scale](https://type-scale.com/) - This is a great tool to make sure that the visual hierarchy of a website is always adheared to. 
-- [Semantic HTML] (https://htmlreference.io/semantic/) - I used this to make sure my HTML was accurately representing the content on the webpage. 
+[Colour picker!](https://imagecolorpicker.com/) - This helped me when I needed to match colours specifically to the design specifications. Absolute no-brainer! 
+[Type Scale](https://type-scale.com/) - This is a great tool to make sure that the visual hierarchy of a website is always adheared to. 
+[Semantic HTML](https://htmlreference.io/semantic/) - I used this to make sure my HTML was accurately representing the content on the webpage. 
 
 
 
