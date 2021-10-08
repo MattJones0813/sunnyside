@@ -45,9 +45,13 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 This project allowed me to re-inforce my CSS and Flexbox skills. 
 I really enjoyed making the website responsive and adding media queries to make sure it was responsive for multiple devices. 
 I used ``` height: fit-content; ``` for the first time in this project which was another new property I learned. 
+I also had to overcome a few challenges on the way so I had to research solutions and read documentation to impliment these changes. 
+[https://developer.mozilla.org/en-US/docs/Web/CSS](MDN Web Docs) was a great tool for this alongside StackOverflow for specific questions. 
+
 
 ### Code Snippets
 
+1.
 ```css
 .learn-more::after {
   content: "";
@@ -60,15 +64,16 @@ I used ``` height: fit-content; ``` for the first time in this project which was
   z-index: 1;
 }
 ```
-This code snippet allowed me to add the styling to the 'learn more' elements on the page, which was a subtle design choice but overall really gave the website a nice feel. I also added a hover element so that it matched the colour when it was active.
+This code snippet allowed me to add the styling to the 'learn more' elements on the page, which was a subtle design choice but overall really gave the website a nice feel. 
 ```css
 .learn-more:link,
 .learn-more:visited {
   color: #23303e;
 }
 ``` 
+I also added a hover element so that it matched the colour when it was active.
 
-
+2.
 ```css
 .helper-center {
   position: absolute;
@@ -81,7 +86,7 @@ This code snippet allowed me to add the styling to the 'learn more' elements on 
 This was the first time i've added text inside of a div over an image. 
 It was great to impliment this as it's another skill that I have learned due to this project! 
 
-
+3.
 ```css
 .section-3-info {
   font-family: "Barlow", sans-serif;
@@ -95,6 +100,7 @@ It was great to impliment this as it's another skill that I have learned due to 
 ```
 This is an example of one of the re-usable styles I used during the design. 
 It helped me create cleaner and easier to read code and made the whole design process a lot easier and more efficient. 
+
 
 
 ### Continued development
@@ -112,11 +118,12 @@ I am currently working through a JS course so I will hopefully be able to add th
 As for the flexbox/ grid issue I have tried to fix this problem but I couldn't get it to work without setting a definate height on a div,
 which affected the rest of the design whereby the grid would no longer be responsive. I will look into this when I add the JS. 
 
+
 ### Useful resources
 
-[Colour picker!](https://imagecolorpicker.com/) - This helped me when I needed to match colours specifically to the design specifications. Absolute no-brainer! 
-[Type Scale](https://type-scale.com/) - This is a great tool to make sure that the visual hierarchy of a website is always adheared to. 
-[Semantic HTML](https://htmlreference.io/semantic/) - I used this to make sure my HTML was accurately representing the content on the webpage. 
+- [Colour picker!](https://imagecolorpicker.com/) - This helped me when I needed to match colours specifically to the design specifications. Absolute no-brainer! 
+- [Type Scale](https://type-scale.com/) - This is a great tool to make sure that the visual hierarchy of a website is always adheared to. 
+- [Semantic HTML](https://htmlreference.io/semantic/) - I used this to make sure my HTML was accurately representing the content on the webpage. 
 
 
 
